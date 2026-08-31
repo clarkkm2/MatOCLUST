@@ -185,7 +185,7 @@ If you use MatOCLUST.jl in your research, please cite both the software and the 
 
 ```bibtex
 @software{,
-  author = {Clark, Katharine M.},
+  author = {Clark, Katharine M. and McNicholas, Paul D.},
   title = {MatOCLUST.jl},
   year = {2026},
   url = {https://github.com/clarkkm2/MatOCLUST.jl}
