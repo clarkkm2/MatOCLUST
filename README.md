@@ -93,13 +93,13 @@ using matOCLUST
 fit = matOCLUST(X, 2, 10)
 
 # Estimated classifications
-fit["classes"]
+fit[:classes]
 
 # K-L Divergence
-fit["KL"]
+fit[:KL]
 
 # Compare estimated and true classes
-crosstab(true_class, fit["classes"])
+crosstab(true_class, fit[:classes])
 ```
 
 where
@@ -169,19 +169,41 @@ crosstab(predicted, truth)
 The fitted model object contains information such as:
 
 ```julia
-fit["classes"]
-fit["bestmod"]
-fit["numO"]
-fit["outs"]
-fit["allCand"]
-fit["KL"]
+fit[:classes]
+fit[:bestmod]
+fit[:numO]
+fit[:outs]
+fit[:allCand]
+fit[:KL]
 ```
 
-## References
+## Citation
 
-This package is the Julia implementation of:
+If you use MatOCLUST.jl in your research, please cite both the software and the underlying methodology.
 
-> Clark, K. M., & McNicholas, P. D. (2024). *Clustering Three-Way Data with Outliers*. arXiv:2310.05288.
+### Software
+
+```bibtex
+@software{,
+  author = {Clark, Katharine M.},
+  title = {MatOCLUST.jl},
+  year = {2026},
+  url = {https://github.com/clarkkm2/MatOCLUST.jl}
+}
+```
+
+### Methodology
+
+```bibtex
+@misc{,
+  title={Clustering Three-Way Data with Outliers},
+  author={Clark, Katharine M. and McNicholas, Paul D.},
+  year={2024},
+  eprint={2310.05288},
+  archivePrefix={arXiv},
+  primaryClass={stat.ML}
+}
+```
 
 ## License
 

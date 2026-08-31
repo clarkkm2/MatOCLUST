@@ -1,0 +1,11 @@
+```yaml 
+cff-version: 1.2.0 
+title: "MatOCLUST.jl" 
+message: "If you use this software, please cite it as below." 
+type: software authors: 
+	- family-names: Clark 
+	- given-names: Katharine M. 
+repository-code: "https://github.com/clarkkm2/MatOCLUST.jl" 
+license: GPL-2.0-or-later
+version: 0.1.0
+date-released: 2026-08-31
