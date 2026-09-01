@@ -14,7 +14,7 @@ Install directly from GitHub:
 ```julia
 using Pkg
 
-Pkg.add(url="https://github.com/clarkkm2/MatOCLUST.jl")
+Pkg.add(url="https://github.com/clarkkm2/MatOCLUST")
 ```
 
 ## Loading the Package
